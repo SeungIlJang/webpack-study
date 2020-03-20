@@ -1,0 +1,9 @@
+webpack :웹팩 빌드 기본 명령어 (주로개발용)
+webpack -p :minification기능이 들아간 빌드 (주로 배포용)
+webpack -watch(-w):개랄에서 빌드할 파일의 변화를 감지
+ㄴwebpack --progress --watch
+webpack -d:sourcemap포함하여빌드
+ㄴ원래의 파일구조에서 디버깅 가능
+webpack --display-error-detail:error발생시 디버깅 정보를 상세히출력
+webpack --optimize-minimize --define pross.env.NODE_ENV="'production'":배포용
+
